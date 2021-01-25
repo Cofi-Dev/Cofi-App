@@ -7,7 +7,7 @@
       </div>
       <v-card>
         <v-card-title class="headline">
-          NaM-Bot
+          <p>NaM-Bot</p>
         </v-card-title>
         <v-card-text>
           <p>
