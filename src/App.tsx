@@ -1,18 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Route, Redirect } from 'react-router-dom'
 import './App.scss';
 
+import {Home} from './views/home'
+import {About} from './views/about'
+
 function App() {
-  const appName: String  = 'NaM-App'
+
   
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <code>{appName}</code>
-        </p>
-      </header>
+    <div>
+        <Route path='/' exact component={Home} />
+        <Route path='/about' component={About} />
+        <Redirect to='/' />
     </div>
   );
 }
