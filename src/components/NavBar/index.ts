@@ -1,0 +1,1 @@
+export { default as NamNavBar } from "./NavBar";
