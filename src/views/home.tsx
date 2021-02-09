@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom'
-import { NamHeaderHome } from '../components/HeaderHome'
+import { NamHeaderHome } from '../components/NavBarHome'
 
 export const Home = () => {
 

@@ -1,0 +1,1 @@
+export { default as NamHeaderHome } from "./NavBarHome";
