@@ -1,14 +1,12 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom'
+import { NamHeaderHome } from '../components/NavBarHome'
 
 export const About = () => {
 
     return (
         <section>
             <h1>About</h1>
-            <NavLink to="/" activeClassName="selected">
-              Home
-            </NavLink>
+            <NamHeaderHome />
         </section>
     )
 }

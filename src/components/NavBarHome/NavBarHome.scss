@@ -1,6 +1,7 @@
-.nam-nav-bar {
-
+.nam-navbar {
+   
     &__inner {
         display: grid;
+        grid-template-columns: em(32px) 1fr;
     }
 }
