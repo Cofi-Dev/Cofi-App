@@ -1,0 +1,16 @@
+@keyframes pulse {
+  0% {
+    background: gray;
+    transform: scale(1);
+  }
+
+  25% {
+    background: darken(gray, 10%);
+    transform: scale(1.015);
+  }
+
+  50% {
+    background: gray;
+    transform: scale(1);
+  }
+}

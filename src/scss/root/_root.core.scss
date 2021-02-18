@@ -1,0 +1,7 @@
+@mixin core {
+  --is-mobile: "true";
+
+  @include breakpoint($bp) {
+    --is-mobile: "false";
+  }
+}

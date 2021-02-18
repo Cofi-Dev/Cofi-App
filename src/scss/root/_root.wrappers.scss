@@ -1,0 +1,9 @@
+@mixin wrappers {
+  --wrapper-gap: #{em(16px)};
+  --wrapper: #{em(1400px)};
+  --wrapper-small: #{em(500px)};
+
+  @include breakpoint(600px) {
+    --wrapper-gap: #{em(32px)};
+  }
+}
