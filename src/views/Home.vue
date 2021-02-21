@@ -1,14 +1,16 @@
 <template>
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <div>
+        <NamNavBar />
+        <h1>Home page</h1>
+    </div>
 </template>
 
 <script>
-    import HelloWorld from '@/components/HelloWorld.vue'
-
+    import NamNavBar from '@/components/Navbar'
     export default {
         name: 'Home',
         components: {
-            HelloWorld
+            NamNavBar
         }
     }
 </script>
