@@ -1,15 +1,4 @@
 <template>
-<<<<<<< HEAD
-    <p>example</p>
-</template>
-
-<script>
-
-    export default {
-        name: 'Home',
-        components: {
-
-=======
     <div>
         <NamNavBar />
         <h1>Home page</h1>
@@ -22,7 +11,6 @@
         name: 'Home',
         components: {
             NamNavBar
->>>>>>> dbd69ad8c927b9a1b6e2ec3ca04bc65c362ef643
         }
     }
 </script>
