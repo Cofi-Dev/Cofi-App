@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 /* ROUTES */
 import plugins from '@/router/modules/plugins'
+import rankings from '@/router/modules/rankings'
 
 const routes = [
     {
@@ -22,14 +23,15 @@ const routes = [
     },
     {
         path: '/dashboard',
-        component: () => import('@/views/Home.vue'),
+        component: () => import('@/views/Router.vue'),
         children: [
             {
                 path: '',
                 name: 'dashboard',
                 component: () => import('@/views/Home.vue')
             },
-            plugins
+            plugins,
+            rankings
         ]
     }
 ]
