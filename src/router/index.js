@@ -3,6 +3,9 @@ import { createRouter, createWebHistory } from 'vue-router'
 /* ROUTES */
 import plugins from '@/router/modules/plugins'
 import rankings from '@/router/modules/rankings'
+import settings from '@/router/modules/settings'
+import customize from '@/router/modules/customize'
+import premium from '@/router/modules/premium'
 
 const routes = [
     {
@@ -31,7 +34,10 @@ const routes = [
                 component: () => import('@/views/Home.vue')
             },
             plugins,
-            rankings
+            rankings,
+            settings,
+            customize,
+            premium
         ]
     }
 ]
