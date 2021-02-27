@@ -43,8 +43,8 @@ const router = createRouter({
 
 router.beforeEach((to, from, next) => {
     document.title = to?.meta?.title
-        ? `NaM Bot- ${to.meta.title}`
-        : 'NaM - Dashboard'
+        ? `Cofi - ${to.meta.title}`
+        : 'Cofi - Dashboard'
     next()
 })
 

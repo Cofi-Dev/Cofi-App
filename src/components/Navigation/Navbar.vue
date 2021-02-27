@@ -16,7 +16,7 @@
     import useNavMain from '@/use/useNavMain'
 
     export default {
-        name: 'NamNavBar',
+        name: 'CofiNavBar',
         setup () {
             console.log(useNavMain().items)
             return {

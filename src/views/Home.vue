@@ -1,16 +1,16 @@
 <template>
     <div>
-        <NamNavBar />
+        <CofiNavBar />
         <h1>Home page</h1>
     </div>
 </template>
 
 <script>
-    import NamNavBar from '@/components/Navigation/Navbar'
+    import CofiNavBar from '@/components/Navigation/Navbar'
     export default {
         name: 'Home',
         components: {
-            NamNavBar
+            CofiNavBar
         }
     }
 </script>
