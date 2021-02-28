@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 /* ROUTES */
 import plugins from '@/router/modules/plugins'
+import roles from '@/router/modules/roles'
 import rankings from '@/router/modules/rankings'
 import settings from '@/router/modules/settings'
 import customize from '@/router/modules/customize'
@@ -34,6 +35,7 @@ const routes = [
                 component: () => import('@/views/Home.vue')
             },
             plugins,
+            roles,
             rankings,
             settings,
             customize,
