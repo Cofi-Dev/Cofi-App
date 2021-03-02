@@ -1,4 +1,4 @@
-# nam-app
+# cofy-app
 
 ## Project setup
 ```

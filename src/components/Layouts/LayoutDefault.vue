@@ -1,6 +1,6 @@
 <template>
-    <div class="nam-layout-default">
-        <div class="nam-layout-default__content">
+    <div class="cofy-layout-default">
+        <div class="cofy-layout-default__content">
             <slot />
         </div>
     </div>
@@ -13,7 +13,7 @@
 </script>
 
 <style lang="scss">
-  .nam-layout-default {
+  .cofy-layout-default {
     &__content {
       padding-top: em(40px);
       padding-bottom: em(104px);
