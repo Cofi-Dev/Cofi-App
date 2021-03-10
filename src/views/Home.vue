@@ -1,16 +1,18 @@
 <template>
     <div>
-        <CofiNavBar />
-        <h1>Home page</h1>
+        <CofiLayoutDefault>
+            <h1>Home page</h1>
+        </CofiLayoutDefault>
     </div>
 </template>
 
 <script>
-    import CofiNavBar from '@/components/Navigation/Navbar'
+    import CofiLayoutDefault from '@/components/Layouts/LayoutDefault'
+
     export default {
         name: 'Home',
         components: {
-            CofiNavBar
+            CofiLayoutDefault
         }
     }
 </script>

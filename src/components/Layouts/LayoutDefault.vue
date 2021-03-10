@@ -1,19 +1,25 @@
 <template>
-    <div class="cofy-layout-default">
-        <div class="cofy-layout-default__content">
+    <div class="cofi-layout-default">
+        <CofiNavBar />
+        <div class="cofi-layout-default__content">
             <slot />
         </div>
     </div>
 </template>
 
 <script>
-    export default {
+    import CofiNavBar from '@/components/Navigation/Navbar'
 
+    export default {
+        name: 'CofiLayoutDefault',
+        components: {
+            CofiNavBar
+        }
     }
 </script>
 
 <style lang="scss">
-  .cofy-layout-default {
+  .cofi-layout-default {
     &__content {
       padding-top: em(40px);
       padding-bottom: em(104px);
