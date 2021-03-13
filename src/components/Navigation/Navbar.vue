@@ -48,13 +48,13 @@
         }
 
         &__list {
-        display: grid;
-        grid-template-columns: auto;
-        grid-auto-flow: column;
-        overflow: hidden;
-        border-radius: var(--radius);
-        flex-shrink: 0;
-        grid-gap: em(2px);
+            display: grid;
+            grid-template-columns: auto;
+            grid-auto-flow: column;
+            overflow: hidden;
+            border-radius: var(--radius);
+            flex-shrink: 0;
+            grid-gap: em(2px);
 
             &--dropdown {
                 grid-auto-flow: row;
@@ -70,14 +70,14 @@
         }
 
         &__dropdown {
-        opacity: 0;
-        transform-origin: 0 0;
-        pointer-events: none;
-        transition: opacity 0.3s;
-        position: absolute;
-        z-index: var(--z-index-pawn);
-        padding-top: em(8px);
-        padding-bottom: em(8px);
+            opacity: 0;
+            transform-origin: 0 0;
+            pointer-events: none;
+            transition: opacity 0.3s;
+            position: absolute;
+            z-index: var(--z-index-pawn);
+            padding-top: em(8px);
+            padding-bottom: em(8px);
 
             &--active {
                 opacity: 1;

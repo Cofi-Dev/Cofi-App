@@ -16,3 +16,9 @@
         }
     }
 </script>
+
+<style lang="scss">
+    .cofi-home {
+        //
+    }
+</style>
