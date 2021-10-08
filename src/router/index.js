@@ -26,6 +26,14 @@ const routes = [
         }
     },
     {
+        path: '/about',
+        name: 'about',
+        component: () => import('@/views/Login.vue'), // todo lol
+        meta: {
+            title: 'About us'
+    }
+    },
+    {
         path: '/dashboard',
         component: () => import('@/views/Router.vue'),
         children: [
