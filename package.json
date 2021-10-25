@@ -2,6 +2,12 @@
   "name": "cofi-app",
   "version": "0.0.1",
   "private": true,
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --trailing-comma es5 --single-quote --write",
+      "git add"
+    ]
+  },
   "scripts": {
     "start": "craco start",
     "build": "craco build",
@@ -41,9 +47,15 @@
       "last 1 safari version"
     ]
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
-		"@commitlint/config-conventional": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
     "autoprefixer": "^9",
     "husky": "^7.0.4",
     "postcss": "^7",
