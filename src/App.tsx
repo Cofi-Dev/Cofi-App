@@ -1,12 +1,13 @@
 import './App.css';
 
-/* import SideBar from './components/SideBar';
- */
+import Layout from './components/Layout/Layout';
+import Routes from './routes';
+
 function App() {
   return (
-    <>
-      <p>Test App</p>
-    </>
+    <Layout>
+      <Routes />
+    </Layout>
   );
 }
 
